@@ -16,11 +16,13 @@ We have found that OMEGA (with default parameters), ROTATE (with a ring conforma
 
 This study was supported by Grant Number AGL2011-25831 from the Spanish Government. 
 
+
 SUMMARY TO USE SCRIPTS
 
 The Python scripts availables to download in this website has been used to prepare bioactive structures, generate conformers of ligands and calculate rmsd. 
 
 CONFORMER GENERATION
+
 1. Validation of Electron Density Map of bioactive structures using VHELIBS (https://github.com/URVnutrigenomica-CTNS/VHELIBS)
 2. rmsd_bioactive_poses.py : calculate rmsd between poses from the same ligand in order to reduce redundance structures
 3. change_coordinates_ligands.py : modify the coordinates of ligands in order to avoid biases of the results
@@ -30,6 +32,7 @@ CONFORMER GENERATION
 7. tables_rmsd.py  :  analysis and ranking of the minimum of rmsd value for each bioactive structure depend on the number of rotatable bond
 
 NUMBER OF CONFORMER AND CPU TIME USED
+
 8. average_number_conformers.py  : calculate the number of conformers generates for the ligands between 1-7 rotatable bonds. 
 9. cpu_time.py  : calculate the cpu time used during conformer generation for a subset of 700 ligands that have between 1-7 rotatable bonds. 
 10. cpu_time_schrodinger.py  : calculate the cpu time by ConfGen used during conformer generation for a subset of 700 ligands that have between 1-7 rotatable bonds. 
