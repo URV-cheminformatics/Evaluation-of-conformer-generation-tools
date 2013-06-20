@@ -6,7 +6,7 @@ María José Ojeda (1), Adrià Cereto-Massagué (1), Cristina Valls (1), Miquel 
 (1) Grup de Recerca en Nutrigenòmica, Departament de Bioquímica i Biotecnologia, Universitat Rovira i Virgili, Campus de Sescelades, C/ Marceŀlí Domingo s/n, 43007 Tarragona, Catalonia, Spain
 (2) Centre Tecnològic de Nutrició i Salut (CTNS), TECNIO, CEICS, Avinguda Universitat 1, 43204, Reus, Catalonia, Spain
 
-#ABSTRACT#
+###ABSTRACT###
 
 Virtual screening workflows consist of several sequential filters where the output molecules of one step are the input molecules for the next step and so on. Conformer generation represents one of this filters to obtain input for other applications like shape comparison tools or docking engines. 
 
@@ -17,11 +17,11 @@ OMEGA (with default parameters), ROTATE (with a ring conformations of CORINA) an
 This study was supported by Grant Number AGL2011-25831 from the Spanish Government. 
 
 
-#HOW TO USE THE SCRIPTS#
+###HOW TO USE THE SCRIPTS###
 
 These Python scripts have been used to prepare bioactive structures, generate conformers of ligands and calculate their RMSD. 
 
-#CONFORMER GENERATION#
+###CONFORMER GENERATION###
 
 1. Validation of Electron Density Map of bioactive structures using VHELIBS (https://github.com/URVnutrigenomica-CTNS/VHELIBS)
 2. rmsd_bioactive_poses.py : calculate RMSD between poses from the same ligand in order to reduce redundant structures
@@ -31,7 +31,7 @@ These Python scripts have been used to prepare bioactive structures, generate co
 6. rmsd.conformers.py  : calculation of rmsd between conformers and bioactive structures
 7. tables_rmsd.py  :  analysis and ranking of the minimum rmsd value for each bioactive structure depending on the number of rotatable bonds.
 
-#NUMBER OF CONFORMER AND CPU TIME USED#
+###NUMBER OF CONFORMER AND CPU TIME USED###
 
 8. average_number_conformers.py  : calculate the number of conformers generated for ligands between 1-7 rotatable bonds. 
 9. cpu_time.py  : calculate the CPU time used during conformer generation for a subset of 700 ligands which have between 1-7 rotatable bonds. 
